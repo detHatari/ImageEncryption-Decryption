@@ -49,7 +49,7 @@ def binary_to_numpy_array(binary_string):
     return np.array(int_list)
 
 # Specify the paths to your images here
-plain_image_path = "D:\\Documents\\TNG9_Y3T1\\Cryptography\\Img1.jpg"  # Change to your plain image path
+plain_image_path = "D:\\Documents\\img1.jpg"  # Change to your plain image path
 
 # Load the plain image
 plain_image = load_image(plain_image_path)
